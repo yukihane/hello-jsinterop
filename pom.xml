@@ -81,6 +81,7 @@
         <!-- Plugin configuration. There are many available options, see 
           gwt-maven-plugin documentation at codehaus.org -->
         <configuration>
+          <generateJsInteropExports>true</generateJsInteropExports>
           <runTarget>Main.html</runTarget>
           <modules>
             <module>com.github.yukihane.gwt.Main</module>
