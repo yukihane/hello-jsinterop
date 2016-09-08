@@ -4,6 +4,11 @@
   <inherits name="com.google.gwt.core.Core"/>
 
   <!-- Other module inherits                                      -->
+  <inherits name="com.google.gwt.logging.Logging"/>
+
+  <set-property name="gwt.logging.logLevel" value="FINEST"/>
+  <set-property name="gwt.logging.enabled" value="TRUE"/>
+  <set-property name="gwt.logging.consoleHandler" value="ENABLED"/>
 
   <!-- Specify the app entry point class.                         -->
   <entry-point class='com.github.yukihane.gwt.client.Main' />
